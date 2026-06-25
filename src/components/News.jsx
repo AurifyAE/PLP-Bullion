@@ -59,7 +59,7 @@ const NewsTicker = ({ newsItems = [] }) => {
           flexShrink: 0,
         }}
       >
-        PLP Gold Bullion
+        PLP Gold
       </Typography>
 
       {/* NEWS TICKER */}
