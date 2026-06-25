@@ -164,7 +164,7 @@ const CommodityTable = ({ title, items }) => {
 
           backdropFilter: "blur(0.35vw)",
 
-          border: "0.1vw solid rgba(255, 210, 170, 0.32)",
+          border: "0.1vw solid rgba(249 184 98 / 0.44)",
 
           boxShadow: `
   inset 0 0 0.08vw rgba(255,255,255,0.15),
@@ -175,7 +175,7 @@ const CommodityTable = ({ title, items }) => {
         <Typography
           sx={{
             // fontSize: "1.2vw",
-             
+
             fontSize: {
               xs: "14px",
               lg: "1.2vw",
@@ -193,7 +193,7 @@ const CommodityTable = ({ title, items }) => {
         <Typography
           sx={{
             // fontSize: "1.2vw",
-             
+
             fontSize: {
               xs: "14px",
               lg: "1.2vw",
@@ -209,7 +209,7 @@ const CommodityTable = ({ title, items }) => {
 
         <Typography
           sx={{
-             
+
             fontSize: {
               xs: "14px",
               lg: "1.2vw",
@@ -226,7 +226,7 @@ const CommodityTable = ({ title, items }) => {
         <Typography
           sx={{
             // fontSize: "1.2vw",
-             
+
             fontSize: {
               xs: "14px",
               lg: "1.2vw",
@@ -283,7 +283,7 @@ const CommodityTable = ({ title, items }) => {
 
               backdropFilter: "blur(0.35vw)",
 
-              border: "0.1vw solid rgba(255, 210, 170, 0.32)",
+              border: "0.1vw solid #FFC98370",
 
               boxShadow: `
   inset 0 0 0.08vw rgba(255,255,255,0.15),
@@ -320,7 +320,7 @@ const CommodityTable = ({ title, items }) => {
                   <Typography
                     sx={{
                       // fontSize: "1.24vw",
-             
+
                       fontSize: {
                         xs: "14px",
                         sm: "12px",
@@ -345,7 +345,7 @@ const CommodityTable = ({ title, items }) => {
                     <Typography
                       sx={{
                         // fontSize: "1vw",
-             
+
                         fontSize: {
                           xs: "12px",
                           sm: "10px",
@@ -364,7 +364,7 @@ const CommodityTable = ({ title, items }) => {
                   <Typography
                     sx={{
                       // fontSize: "1.18vw",
-             
+
                       fontSize: {
                         xs: "14px",
                         lg: "1.3vw",
@@ -380,7 +380,7 @@ const CommodityTable = ({ title, items }) => {
                   <Typography
                     sx={{
                       // fontSize: "1.32vw",
-             
+
                       fontSize: {
                         xs: "14px",
                         lg: "1.5vw",
@@ -396,7 +396,7 @@ const CommodityTable = ({ title, items }) => {
                   <Typography
                     sx={{
                       // fontSize: "1.32vw",
-             
+
                       fontSize: {
                         xs: "14px",
                         lg: "1.5vw",

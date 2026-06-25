@@ -21,11 +21,11 @@ const clockConfig = [
     flag: "/images/uk.png",
   },
   {
-  key: "usa",
-  label: "USA",
-  timeZone: "America/New_York",
-  flag: "/images/usa.png",
-},
+    key: "usa",
+    label: "USA",
+    timeZone: "America/New_York",
+    flag: "/images/usa.png",
+  },
 ];
 
 const WorldClockHorizontal = () => {
@@ -105,7 +105,7 @@ const WorldClockHorizontal = () => {
           >
             <Typography
               sx={{
-                    
+
 
 
                 fontSize: {
@@ -113,7 +113,7 @@ const WorldClockHorizontal = () => {
                   lg: "1vw",
                 },
                 fontWeight: 500,
-                color: "#fff",
+                color: "#FFC983",
               }}
             >
               {clock.label}
@@ -121,14 +121,14 @@ const WorldClockHorizontal = () => {
 
             <Typography
               sx={{
-                    
+
 
 
                 fontSize: {
                   xs: "14px",
                   lg: "1vw",
                 },
-                color: "#fff",
+                color: "#FFC983",
               }}
             >
               {times[clock.key] || "--:--"}

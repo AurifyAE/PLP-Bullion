@@ -42,7 +42,7 @@ const NewsTicker = ({ newsItems = [] }) => {
         sx={{
 
 
-          color: "#fff",
+          color: "#FFC983",
           background:
             "linear-gradient(321deg, rgba(79, 17, 17, 0.45), rgb(171, 1, 43), rgba(79, 17, 17, 0.45))",
           fontSize: {

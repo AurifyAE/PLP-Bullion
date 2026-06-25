@@ -82,7 +82,7 @@ const SystemClock = () => {
         {/* Date */}
         <Typography
           sx={{
-             
+
 
 
             fontSize: {
@@ -91,7 +91,7 @@ const SystemClock = () => {
             },
             fontWeight: 400,
             letterSpacing: "2px",
-            color: "#fff",
+            color: "#FFC983",
           }}
         >
           {timeData.date || "-- --- ----"}
@@ -99,13 +99,13 @@ const SystemClock = () => {
         {/* Day */}
         <Typography
           sx={{
-            
+
 
             fontSize: {
               xs: "12px",
               sm: "1vw",
             },
-            color: "#fff",
+            color: "#FFC983",
             letterSpacing: "2px",
           }}
         >
