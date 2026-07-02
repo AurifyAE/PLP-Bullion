@@ -12,7 +12,7 @@ const ErrorPage = () => {
       <style>{`
         .ep-root {
           min-height: 100dvh;
-          background: #280b0b;
+          background: #0C0B28;
           display: flex;
           flex-direction: column;
           align-items: center;
