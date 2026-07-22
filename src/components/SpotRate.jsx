@@ -144,8 +144,8 @@ const SpotRate = () => {
               xs: "18px", // mobile
               sm: "2.5vw", // small tablets
               md: "1.8vw", // laptops
-              lg: "2.4vw", // desktop
-              xl: "2.4vw", // large screens
+              lg: "2.9vw", // desktop
+              xl: "2.9vw", // large screens
             },
             fontWeight: 800,
             letterSpacing: "0.18vw",
@@ -200,9 +200,6 @@ const SpotRate = () => {
           gap: "1vw",
           gridTemplateColumns: ".7fr 1fr 1fr",
 
-
-
-
           "&::before": {
             content: '""',
             position: "absolute",
@@ -210,7 +207,7 @@ const SpotRate = () => {
 
             padding: "0.08vw", // border thickness
             // borderRadius: "inherit",
-          borderRadius: "1.6vw",
+            borderRadius: "1.6vw",
 
             background: `
       linear-gradient(
@@ -231,10 +228,7 @@ const SpotRate = () => {
             maskComposite: "exclude",
 
             pointerEvents: "none",
-          }
-
-
-
+          },
         }}
       >
         <Box
@@ -251,8 +245,8 @@ const SpotRate = () => {
               height: "4.5vw",
               objectFit: "contain",
             }}
-            component='img'
-            src={isSilver ? '/images/silver-bar.png' : '/images/gold-bar.png'}
+            component="img"
+            src={isSilver ? "/images/silver-bar.png" : "/images/gold-bar.png"}
             alt={title}
           />
 
@@ -262,11 +256,12 @@ const SpotRate = () => {
               fontWeight: 700,
 
               letterSpacing: "0.1em",
-              background: isSilver ? 'linear-gradient(90deg, #CCFBFF,#9AC6FF)' : 'linear-gradient(90deg, #FFF7CC,#FFCD9A)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              lineHeight: '1'
-
+              background: isSilver
+                ? "linear-gradient(90deg, #CCFBFF,#9AC6FF)"
+                : "linear-gradient(90deg, #FFF7CC,#FFCD9A)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              lineHeight: "1",
             }}
           >
             {title}
@@ -306,8 +301,7 @@ const SpotRate = () => {
           }}
         >
           <PricePulse label="ASK" value={data.ask} dir={askDir} />
-          HIGH{" "}
-          <span className="hl-value-high text-[#4dbf00]">{data.high}</span>
+          HIGH <span className="hl-value-high text-[#4dbf00]">{data.high}</span>
         </Box>
       </Box>
     );

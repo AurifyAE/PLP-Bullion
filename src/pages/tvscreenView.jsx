@@ -125,7 +125,7 @@ function TvScreen() {
         socket.emit("request-data", symbols);
       });
 
-      socket.on("disconnect", () => { });
+      socket.on("disconnect", () => {});
 
       // socket.on("market-data", (data) => {
       //   if (data && data.symbol) {
@@ -254,8 +254,7 @@ function TvScreen() {
         <Grid xs={12} md={6} padding="1vw" gap="1vw" display="grid">
           <SystemClock />
           <WorldClockHorizontal />
-          <SpotRate />
-
+          <CommodityTable items={commodities} />
           <PoweredByAurify />
         </Grid>
         <Grid
@@ -277,10 +276,8 @@ function TvScreen() {
           >
             <img src={mainLogo} alt="" className="object-contain w-full" />
           </Box>
-          <CommodityTable items={commodities} />
+          <SpotRate />
         </Grid>
-
-
 
         <Grid
           md={12}
