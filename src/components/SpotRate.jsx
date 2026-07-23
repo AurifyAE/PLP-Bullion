@@ -126,9 +126,9 @@ const SpotRate = () => {
             // fontSize: "1vw",
 
             fontSize: {
-              xs: "15px", // mobile
-              sm: "2.5vw", // small tablets
-              md: "1.5vw", // laptops
+              xs: "17px", // mobile
+              sm: "2.7vw", // small tablets
+              md: "1.7vw", // laptops
             },
             letterSpacing: "0.25vw",
             color: "#fff",
@@ -141,11 +141,11 @@ const SpotRate = () => {
           sx={{
             // fontSize: "2.4vw",
             fontSize: {
-              xs: "18px", // mobile
-              sm: "2.5vw", // small tablets
-              md: "1.8vw", // laptops
-              lg: "2.9vw", // desktop
-              xl: "2.9vw", // large screens
+              xs: "22px", // mobile
+              sm: "3.2vw", // small tablets
+              md: "2.4vw", // laptops
+              lg: "3.3vw", // desktop
+              xl: "3.3vw", // large screens
             },
             fontWeight: 800,
             letterSpacing: "0.18vw",
@@ -252,7 +252,7 @@ const SpotRate = () => {
 
           <Box
             sx={{
-              fontSize: { xs: "14px", md: "1.7vw" },
+              fontSize: { xs: "16px", md: "1.9vw" },
               fontWeight: 700,
 
               letterSpacing: "0.1em",
@@ -271,11 +271,11 @@ const SpotRate = () => {
         <Box
           sx={{
             fontSize: {
-              xs: "15px", // mobile
-              sm: "2.5vw", // small tablets
-              md: "1.8vw", // laptops
-              lg: "1.5vw", // desktop
-              xl: "1.2vw", // large screens
+              xs: "17px", // mobile
+              sm: "2.7vw", // small tablets
+              md: "2.0vw", // laptops
+              lg: "1.7vw", // desktop
+              xl: "1.4vw", // large screens
             },
             color: "#fff",
 
@@ -290,11 +290,11 @@ const SpotRate = () => {
         <Box
           sx={{
             fontSize: {
-              xs: "15px", // mobile
-              sm: "2.5vw", // small tablets
-              md: "1.8vw", // laptops
-              lg: "1.5vw", // desktop
-              xl: "1.2vw", // large screens
+              xs: "17px", // mobile
+              sm: "2.7vw", // small tablets
+              md: "2.0vw", // laptops
+              lg: "1.7vw", // desktop
+              xl: "1.4vw", // large screens
             },
             color: "#fff",
             fontWeight: "700",

@@ -152,18 +152,10 @@ const CommodityTable = ({ title, items }) => {
           px: "1.5vw",
           alignItems: "end",
           borderRadius: "1vw",
-          // background: "#aa8a4b1a",
-          background: "hsla(0, 0%, 0%, 0.40)",
-
-          backdropFilter: "blur(0.3vw)",
-
           margin: ".4vw",
-
           background:
             "linear-gradient(180deg, rgba(40,15,5,0.55) 0%, rgba(20,8,2,0.45) 100%)",
-
           backdropFilter: "blur(0.35vw)",
-
           border: "0.1vw solid rgba(249 184 98 / 0.44)",
 
           boxShadow: `
@@ -177,9 +169,9 @@ const CommodityTable = ({ title, items }) => {
             // fontSize: "1.2vw",
 
             fontSize: {
-              xs: "14px",
-              lg: "1.2vw",
-              xl: "1.3vw",
+              xs: "15px",
+              lg: "1.3vw",
+              xl: "1.4vw",
             },
             fontWeight: 600,
             color: "#fff",
@@ -195,9 +187,9 @@ const CommodityTable = ({ title, items }) => {
             // fontSize: "1.2vw",
 
             fontSize: {
-              xs: "14px",
-              lg: "1.2vw",
-              xl: "1.3vw",
+              xs: "15px",
+              lg: "1.3vw",
+              xl: "1.4vw",
             },
             fontWeight: 600,
             color: "#fff",
@@ -211,9 +203,9 @@ const CommodityTable = ({ title, items }) => {
           sx={{
 
             fontSize: {
-              xs: "14px",
-              lg: "1.2vw",
-              xl: "1.3vw",
+              xs: "15px",
+              lg: "1.3vw",
+              xl: "1.4vw",
             },
             fontWeight: 600,
             color: "#fff",
@@ -228,9 +220,9 @@ const CommodityTable = ({ title, items }) => {
             // fontSize: "1.2vw",
 
             fontSize: {
-              xs: "14px",
-              lg: "1.2vw",
-              xl: "1.3vw",
+              xs: "15px",
+              lg: "1.3vw",
+              xl: "1.4vw",
             },
             fontWeight: 600,
             color: "#fff",
@@ -272,17 +264,11 @@ const CommodityTable = ({ title, items }) => {
             // allowTouchMove={false} // important for TV
             style={{
               height: isMobile ? "35vw" : "20vw",
-
-              backdropFilter: "blur(5px)",
-              background: "hsla(0, 0%, 0%, 0.40)",
               borderRadius: "1vw",
-
               margin: ".4vw",
               background:
                 "linear-gradient(180deg, rgba(40,15,5,0.35) 0%, rgba(20,8,2,0.25) 100%)",
-
               backdropFilter: "blur(0.35vw)",
-
               border: "0.1vw solid #FFC98370",
 
               boxShadow: `
@@ -322,10 +308,10 @@ const CommodityTable = ({ title, items }) => {
                       // fontSize: "1.24vw",
 
                       fontSize: {
-                        xs: "14px",
-                        sm: "12px",
-                        lg: "1.6vw",
-                        xl: "1.4vw",
+                        xs: "16px",
+                        sm: "14px",
+                        lg: "1.8vw",
+                        xl: "1.6vw",
                       },
                       fontWeight: 800,
                       color: "#fff",
@@ -347,9 +333,9 @@ const CommodityTable = ({ title, items }) => {
                         // fontSize: "1vw",
 
                         fontSize: {
-                          xs: "12px",
-                          sm: "10px",
-                          lg: "1.2vw",
+                          xs: "13px",
+                          sm: "11px",
+                          lg: "1.3vw",
                         },
                         fontWeight: 400,
                         color: "#fff",
@@ -366,9 +352,9 @@ const CommodityTable = ({ title, items }) => {
                       // fontSize: "1.18vw",
 
                       fontSize: {
-                        xs: "14px",
-                        lg: "1.3vw",
-                        xl: "1.4vw",
+                        xs: "16px",
+                        lg: "1.5vw",
+                        xl: "1.6vw",
                       },
                       color: "#fff",
                       textAlign: "start",
@@ -382,9 +368,9 @@ const CommodityTable = ({ title, items }) => {
                       // fontSize: "1.32vw",
 
                       fontSize: {
-                        xs: "14px",
-                        lg: "1.5vw",
-                        xl: "1.4vw",
+                        xs: "16px",
+                        lg: "1.7vw",
+                        xl: "1.6vw",
                       },
                       fontWeight: 600,
                       color: "#fff", // soft pink ASK
@@ -398,9 +384,9 @@ const CommodityTable = ({ title, items }) => {
                       // fontSize: "1.32vw",
 
                       fontSize: {
-                        xs: "14px",
-                        lg: "1.5vw",
-                        xl: "1.4vw",
+                        xs: "16px",
+                        lg: "1.7vw",
+                        xl: "1.6vw",
                       },
                       fontWeight: 600,
                       color: "#fff", // soft pink ASK
