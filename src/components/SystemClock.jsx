@@ -82,14 +82,11 @@ const SystemClock = () => {
         {/* Date */}
         <Typography
           sx={{
-
-
-
             fontSize: {
-              xs: "12px",
-              sm: "2vw",
+              xs: "14px",
+              sm: "2.2vw",
             },
-            fontWeight: 400,
+            fontWeight: 800,
             letterSpacing: "2px",
             color: "#FFC983",
           }}
@@ -99,12 +96,11 @@ const SystemClock = () => {
         {/* Day */}
         <Typography
           sx={{
-
-
             fontSize: {
-              xs: "12px",
-              sm: "1vw",
+              xs: "14px",
+              sm: "1.2vw",
             },
+            fontWeight: 800,
             color: "#FFC983",
             letterSpacing: "2px",
           }}

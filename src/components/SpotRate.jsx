@@ -126,10 +126,11 @@ const SpotRate = () => {
             // fontSize: "1vw",
 
             fontSize: {
-              xs: "17px", // mobile
-              sm: "2.7vw", // small tablets
-              md: "1.7vw", // laptops
+              xs: "19px", // mobile
+              sm: "3.0vw", // small tablets
+              md: "1.9vw", // laptops
             },
+            fontWeight: 800,
             letterSpacing: "0.25vw",
             color: "#fff",
           }}
@@ -141,13 +142,13 @@ const SpotRate = () => {
           sx={{
             // fontSize: "2.4vw",
             fontSize: {
-              xs: "22px", // mobile
-              sm: "3.2vw", // small tablets
-              md: "2.4vw", // laptops
-              lg: "3.3vw", // desktop
-              xl: "3.3vw", // large screens
+              xs: "24px", // mobile
+              sm: "3.5vw", // small tablets
+              md: "2.6vw", // laptops
+              lg: "3.5vw", // desktop
+              xl: "3.5vw", // large screens
             },
-            fontWeight: 800,
+            fontWeight: 900,
             letterSpacing: "0.18vw",
             textAlign: "center",
             bgcolor: bgColor,
@@ -252,8 +253,8 @@ const SpotRate = () => {
 
           <Box
             sx={{
-              fontSize: { xs: "16px", md: "1.9vw" },
-              fontWeight: 700,
+              fontSize: { xs: "18px", md: "2.1vw" },
+              fontWeight: 900,
 
               letterSpacing: "0.1em",
               background: isSilver
@@ -271,37 +272,37 @@ const SpotRate = () => {
         <Box
           sx={{
             fontSize: {
-              xs: "17px", // mobile
-              sm: "2.7vw", // small tablets
-              md: "2.0vw", // laptops
-              lg: "1.7vw", // desktop
-              xl: "1.4vw", // large screens
+              xs: "19px", // mobile
+              sm: "3.0vw", // small tablets
+              md: "2.2vw", // laptops
+              lg: "1.9vw", // desktop
+              xl: "1.6vw", // large screens
             },
             color: "#fff",
 
-            fontWeight: "700",
+            fontWeight: "900",
           }}
         >
           <PricePulse label="BID" value={data.bid} dir={bidDir} />
-          LOW <span className="hl-value-low text-[#FF0040]">{data.low}</span>
+          LOW <span className="hl-value-low text-[#ff0000]">{data.low}</span>
         </Box>
 
         {/* Price Boxes */}
         <Box
           sx={{
             fontSize: {
-              xs: "17px", // mobile
-              sm: "2.7vw", // small tablets
-              md: "2.0vw", // laptops
-              lg: "1.7vw", // desktop
-              xl: "1.4vw", // large screens
+              xs: "19px", // mobile
+              sm: "3.0vw", // small tablets
+              md: "2.2vw", // laptops
+              lg: "1.9vw", // desktop
+              xl: "1.6vw", // large screens
             },
             color: "#fff",
-            fontWeight: "700",
+            fontWeight: "900",
           }}
         >
           <PricePulse label="ASK" value={data.ask} dir={askDir} />
-          HIGH <span className="hl-value-high text-[#4dbf00]">{data.high}</span>
+          HIGH <span className="hl-value-high text-[#afff79]">{data.high}</span>
         </Box>
       </Box>
     );

@@ -169,11 +169,11 @@ const CommodityTable = ({ title, items }) => {
             // fontSize: "1.2vw",
 
             fontSize: {
-              xs: "15px",
-              lg: "1.3vw",
-              xl: "1.4vw",
+              xs: "17px",
+              lg: "1.5vw",
+              xl: "1.6vw",
             },
-            fontWeight: 600,
+            fontWeight: 900,
             color: "#fff",
             letterSpacing: "0.04vw",
             textAlign: "start",
@@ -187,11 +187,11 @@ const CommodityTable = ({ title, items }) => {
             // fontSize: "1.2vw",
 
             fontSize: {
-              xs: "15px",
-              lg: "1.3vw",
-              xl: "1.4vw",
+              xs: "17px",
+              lg: "1.5vw",
+              xl: "1.6vw",
             },
-            fontWeight: 600,
+            fontWeight: 900,
             color: "#fff",
             textAlign: "start",
           }}
@@ -203,11 +203,11 @@ const CommodityTable = ({ title, items }) => {
           sx={{
 
             fontSize: {
-              xs: "15px",
-              lg: "1.3vw",
-              xl: "1.4vw",
+              xs: "17px",
+              lg: "1.5vw",
+              xl: "1.6vw",
             },
-            fontWeight: 600,
+            fontWeight: 900,
             color: "#fff",
             textAlign: "center",
           }}
@@ -220,11 +220,11 @@ const CommodityTable = ({ title, items }) => {
             // fontSize: "1.2vw",
 
             fontSize: {
-              xs: "15px",
-              lg: "1.3vw",
-              xl: "1.4vw",
+              xs: "17px",
+              lg: "1.5vw",
+              xl: "1.6vw",
             },
-            fontWeight: 600,
+            fontWeight: 900,
             color: "#fff",
             textAlign: "center",
           }}
@@ -313,7 +313,7 @@ const CommodityTable = ({ title, items }) => {
                         lg: "1.8vw",
                         xl: "1.6vw",
                       },
-                      fontWeight: 800,
+                      fontWeight: 900,
                       color: "#fff",
                       display: "grid",
                       alignItems: "center ",
@@ -337,7 +337,7 @@ const CommodityTable = ({ title, items }) => {
                           sm: "11px",
                           lg: "1.3vw",
                         },
-                        fontWeight: 400,
+                        fontWeight: 900,
                         color: "#fff",
                         // mb:'-0.5vw'
                       }}
@@ -352,10 +352,11 @@ const CommodityTable = ({ title, items }) => {
                       // fontSize: "1.18vw",
 
                       fontSize: {
-                        xs: "16px",
-                        lg: "1.5vw",
-                        xl: "1.6vw",
+                        xs: "18px",
+                        lg: "1.7vw",
+                        xl: "1.8vw",
                       },
+                      fontWeight: 900,
                       color: "#fff",
                       textAlign: "start",
                     }}
@@ -368,11 +369,11 @@ const CommodityTable = ({ title, items }) => {
                       // fontSize: "1.32vw",
 
                       fontSize: {
-                        xs: "16px",
-                        lg: "1.7vw",
-                        xl: "1.6vw",
+                        xs: "18px",
+                        lg: "1.9vw",
+                        xl: "1.8vw",
                       },
-                      fontWeight: 600,
+                      fontWeight: 900,
                       color: "#fff", // soft pink ASK
                     }}
                   >
@@ -384,11 +385,11 @@ const CommodityTable = ({ title, items }) => {
                       // fontSize: "1.32vw",
 
                       fontSize: {
-                        xs: "16px",
-                        lg: "1.7vw",
-                        xl: "1.6vw",
+                        xs: "18px",
+                        lg: "1.9vw",
+                        xl: "1.8vw",
                       },
-                      fontWeight: 600,
+                      fontWeight: 900,
                       color: "#fff", // soft pink ASK
                     }}
                   >

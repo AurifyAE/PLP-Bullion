@@ -105,14 +105,11 @@ const WorldClockHorizontal = () => {
           >
             <Typography
               sx={{
-
-
-
                 fontSize: {
-                  xs: "14px",
-                  lg: "1vw",
+                  xs: "16px",
+                  lg: "1.2vw",
                 },
-                fontWeight: 500,
+                fontWeight: 800,
                 color: "#FFC983",
               }}
             >
@@ -121,13 +118,11 @@ const WorldClockHorizontal = () => {
 
             <Typography
               sx={{
-
-
-
                 fontSize: {
-                  xs: "14px",
-                  lg: "1vw",
+                  xs: "16px",
+                  lg: "1.2vw",
                 },
+                fontWeight: 900,
                 color: "#FFC983",
               }}
             >

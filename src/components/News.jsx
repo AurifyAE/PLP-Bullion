@@ -46,10 +46,10 @@ const NewsTicker = ({ newsItems = [] }) => {
           background:
             "linear-gradient(321deg, rgba(79, 17, 17, 0.45), rgb(171, 1, 43), rgba(79, 17, 17, 0.45))",
           fontSize: {
-            xs: "12px",
-            lg: "1.2vw",
+            xs: "14px",
+            lg: "1.4vw",
           },
-          fontWeight: 700,
+          fontWeight: 900,
           whiteSpace: "nowrap",
           padding: "0 3.5vw",
           height: "100%",
@@ -88,10 +88,10 @@ const NewsTicker = ({ newsItems = [] }) => {
                 textTransform: "lowercase",
                 color: "#fff",
                 fontSize: {
-                  xs: "12px",
-                  lg: "1.3vw",
+                  xs: "14px",
+                  lg: "1.5vw",
                 },
-                fontWeight: 500,
+                fontWeight: 800,
                 whiteSpace: "nowrap",
                 mx: "1vw",
                 flexShrink: 0,

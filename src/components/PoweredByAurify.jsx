@@ -22,9 +22,9 @@ const PoweredByAurify = () => {
         target="_blank"
         rel="noopener noreferrer"
         sx={{
-          fontSize: { xs: "15px", md: "1.2vw" },
+          fontSize: { xs: "17px", md: "1.4vw" },
 
-          fontWeight: 500,
+          fontWeight: 800,
           color: "#FFC983",
           display: "flex",
           alignItems: "center",
