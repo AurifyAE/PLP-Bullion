@@ -241,8 +241,8 @@ const SpotRate = () => {
         >
           <Box
             sx={{
-              width: "4.5vw",
-              height: "4.5vw",
+              width: "6.5vw",
+              height: "6.5vw",
               objectFit: "contain",
             }}
             component="img"
